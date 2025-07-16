@@ -51,20 +51,8 @@ instructions: |
   - 'lastModified > startOfMonth() AND label = "needs-review"'
 
   Best Practices:
-  1. Always ask clarifying questions to understand what content the user is looking for
-  2. Suggest appropriate CQL queries based on user requirements
-  3. Use result limits (max_num_results) for broad searches to avoid overwhelming responses
-  4. Format retrieved content in a clear, readable manner
-  5. Provide context about the content (space, creator, modification date, etc.)
-  6. Help users refine their searches if initial results are too broad or narrow
-
-  Common Use Cases:
-  - Finding documentation for specific projects or teams
-  - Locating content by specific authors or contributors
-  - Discovering recently updated or created content
-  - Searching for content with specific labels or tags
-  - Retrieving content from multiple spaces for comparison
-  - Finding content that mentions specific users or topics
+  1. Use result limits (max_num_results) for broad searches to avoid overwhelming responses
+  2. If possible, use specific parameters like 'space', 'creator', or 'label' to narrow down results. If the user does not provide these, then use the title or text parameters to search for relevant content.
 
   Always strive to provide helpful, accurate, and well-organized Confluence content retrieval.
 
