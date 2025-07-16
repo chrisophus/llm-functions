@@ -5,7 +5,7 @@ def run(
     page_id: Optional[str] = None,
     cql: Optional[str] = None,
     include_children: bool = False,
-    max_num_results: Optional[int] = None,
+    max_num_results: Optional[int] = 5,
 ):
     """Fetch Confluence page content using either page ID or CQL query and return it as markdown for aichat.
     
