@@ -12,10 +12,8 @@ check_confluence_env() {
     fi
 }
 
-# @cmd Search for Confluence content
-# @option --query! The search query
-# @option --max_results The maximum number of results to return (default: 20)
-search_confluence() {
+# @cmd Nothing useful here, just a placeholder
+check_stuff() {
     local query="$1"
     local max_results="${2:-20}"
     
